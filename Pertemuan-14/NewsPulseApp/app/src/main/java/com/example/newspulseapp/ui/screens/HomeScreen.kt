@@ -75,7 +75,7 @@ fun HomeScreen(
                             Spacer(Modifier.height(4.dp))
 
                             Text(
-                                text = "Update teknologi paling segar hari ini ✨",
+                                text = "Update teknologi paling terbaru hari ini",
                                 fontSize = 14.sp,
                                 color = TextMedium
                             )

@@ -45,7 +45,6 @@ fun DetailScreen(
             .background(BgSoft)
             .verticalScroll(rememberScrollState())
     ) {
-        Box {
             Box {
                 AsyncImage(
                     model = article.urlToImage,
@@ -202,4 +201,3 @@ fun DetailScreen(
             }
         }
     }
-}

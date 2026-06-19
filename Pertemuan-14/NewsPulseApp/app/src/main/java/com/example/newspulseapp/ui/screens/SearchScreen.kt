@@ -45,7 +45,7 @@ fun SearchScreen(
             item {
                 Column(modifier = Modifier.padding(top = 12.dp)) {
                     Text(
-                        text = "Cari Berita 🔍",
+                        text = "Cari Berita",
                         fontSize = 28.sp,
                         fontWeight = FontWeight.ExtraBold,
                         color = TextDark

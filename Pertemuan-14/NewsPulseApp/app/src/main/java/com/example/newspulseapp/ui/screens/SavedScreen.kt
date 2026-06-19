@@ -37,8 +37,6 @@ fun SavedScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                Text(text = "🔖", fontSize = 48.sp)
-                Spacer(Modifier.height(12.dp))
                 Text(
                     text = "Belum ada berita tersimpan",
                     fontSize = 18.sp,
@@ -60,7 +58,7 @@ fun SavedScreen(
             ) {
                 item {
                     Text(
-                        text = "Tersimpan 💜",
+                        text = "Tersimpan",
                         fontSize = 28.sp,
                         fontWeight = FontWeight.ExtraBold,
                         color = TextDark,
